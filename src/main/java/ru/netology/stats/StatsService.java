@@ -10,8 +10,8 @@ public class StatsService {
             }
             month = month + 1;
         }
+//        System.out.println("Месяц с наименьшими продажами" + minMonth);       ?!?! сделать вывод названия месяца с минимальными продажами?!?!
         return minMonth + 1;
-
     }
 
 

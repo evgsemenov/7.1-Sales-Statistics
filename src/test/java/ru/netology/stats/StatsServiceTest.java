@@ -2,11 +2,30 @@ package ru.netology.stats;
 
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 
 class StatsServiceTest {
+
+//    @CsvSource(
+//            value = {
+//                    "January, 8",
+//                    "February, 15",
+//                    "March, 13",
+//                    "April, 15",
+//                    "May, 17",
+//                    "June, 20",
+//                    "July, 19",
+//                    "August, 20",
+//                    "September, 7",
+//                    "October, 14",
+//                    "November, 14",
+//                    "December, 18"
+//            }
+//            )
+
 
     int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};   // Массив тестовых данных с продажами по месяцам
 

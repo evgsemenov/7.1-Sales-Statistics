@@ -10,7 +10,7 @@ public class StatsService {
             }
             month = month + 1;
         }
-        System.out.println("Месяц с наименьшими продажами" + minMonth);     //  ?!?! сделать вывод названия месяца с минимальными продажами?!?!
+        System.out.println("Месяц с наименьшими продажами" + minMonth);
         return minMonth + 1;
     }
 
@@ -36,7 +36,7 @@ public class StatsService {
     }
 
     public int avgSales(int[] sales) {   //Определение среднеарифметической суммы продаж в месяц
-        int avgSales = sumSales(sales) / 12;
+        int avgSales = sumSales(sales) / sales.length;
         return avgSales;
 
     }
